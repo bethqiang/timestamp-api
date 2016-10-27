@@ -1,0 +1,18 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.0",
+  "description": "An API that takes either a Unix timestamp or a natural language date and returns both forms of that date. Developed as a part of Free Code Camp's Back End Development Program.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bethqiang/timestamp-api"
+  },
+  "author": "bethqiang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
