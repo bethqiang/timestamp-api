@@ -4,7 +4,7 @@
   "description": "An API that takes either a Unix timestamp or a natural language date and returns both forms of that date. Developed as a part of Free Code Camp's Back End Development Program.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,6 @@
   "author": "bethqiang",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "moment": "^2.17.1"
   },
